@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdlib.h>
+struct node
+{
+ char name[10];
+ struct node*next = NULL;
+};
+void main()
+{ 
+char n[10];
+ struct node*newnode = NULL;
+ newnode = (struct node*)sizeof(struct node);
+ fgets(n,sizeof(n),stdin);
+ newnode->name = n;
+}
+ 
